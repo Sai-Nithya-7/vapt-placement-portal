@@ -1,0 +1,101 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 221-914-362
+127.0.0.1 - - [02/May/2026 12:11:26] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [02/May/2026 12:11:26] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:11:37] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [02/May/2026 12:11:37] "GET /company/dashboard HTTP/1.1" 200 -
+DEBUG: role=company, filename=resume_3_1777703094.pdf
+127.0.0.1 - - [02/May/2026 12:11:50] "GET /student/resume/resume_3_1777703094.pdf HTTP/1.1" 404 -
+ * Detected change in 'C:\\Users\\saini\\Documents\\PlacementPortal\\routes\\student.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 221-914-362
+127.0.0.1 - - [02/May/2026 12:14:30] "GET /logout HTTP/1.1" 302 -
+127.0.0.1 - - [02/May/2026 12:14:30] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:14:35] "GET /register HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:14:54] "POST /register HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:15:11] "POST /register HTTP/1.1" 302 -
+127.0.0.1 - - [02/May/2026 12:15:11] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:15:27] "POST /login HTTP/1.1" 302 -
+127.0.0.1 - - [02/May/2026 12:15:27] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [02/May/2026 12:15:27] "GET /student/dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:15:38] "GET /student/resume/resume_3_1777703094.pdf HTTP/1.1" 302 -
+127.0.0.1 - - [02/May/2026 12:15:38] "GET /student/dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:19:21] "GET /logout HTTP/1.1" 302 -
+127.0.0.1 - - [02/May/2026 12:19:21] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:20:01] "GET /api/drives HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:20:23] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [02/May/2026 12:20:24] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:20:35] "POST /login HTTP/1.1" 302 -
+127.0.0.1 - - [02/May/2026 12:20:35] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [02/May/2026 12:20:35] "GET /company/dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:20:37] "GET /company/drives/create HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:21:44] "POST /company/drives/create HTTP/1.1" 302 -
+127.0.0.1 - - [02/May/2026 12:21:44] "GET /company/dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:21:55] "GET /api/drives HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:22:08] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [02/May/2026 12:22:08] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:22:19] "POST /login HTTP/1.1" 302 -
+127.0.0.1 - - [02/May/2026 12:22:19] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [02/May/2026 12:22:19] "GET /admin/dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:22:23] "POST /admin/drive/approve/1 HTTP/1.1" 302 -
+127.0.0.1 - - [02/May/2026 12:22:23] "GET /admin/dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:22:25] "GET /logout HTTP/1.1" 302 -
+127.0.0.1 - - [02/May/2026 12:22:25] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:22:31] "GET /api/drives HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:22:44] "GET /company/dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:22:44] "GET /company/dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:22:49] "GET /company/drives/edit/1 HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:22:52] "GET /company/dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:22:54] "GET /company/profile HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:23:36] "POST /company/profile HTTP/1.1" 302 -
+127.0.0.1 - - [02/May/2026 12:23:36] "GET /company/dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:23:42] "GET /api/drives HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:23:42] "GET /api/drives HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:38:09] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:38:28] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:38:31] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [02/May/2026 12:41:52] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:41:52] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:41:53] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:41:53] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:41:53] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 12:41:53] "GET /login HTTP/1.1" 200 -
+
+127.0.0.1 - - [02/May/2026 13:42:29] "POST /login HTTP/1.1" 400 -
+127.0.0.1 - - [02/May/2026 13:42:29] "POST /login HTTP/1.1" 400 -
+127.0.0.1 - - [02/May/2026 13:42:29] "POST /login HTTP/1.1" 400 -
+127.0.0.1 - - [02/May/2026 13:42:29] "POST /login HTTP/1.1" 400 -
+127.0.0.1 - - [02/May/2026 13:42:29] "POST /login HTTP/1.1" 400 -
+127.0.0.1 - - [02/May/2026 13:42:29] "POST /login HTTP/1.1" 400 -
+127.0.0.1 - - [02/May/2026 13:42:29] "POST /login HTTP/1.1" 400 -
+127.0.0.1 - - [02/May/2026 13:42:29] "POST /login HTTP/1.1" 400 -
+127.0.0.1 - - [02/May/2026 13:42:29] "POST /login HTTP/1.1" 400 -
+127.0.0.1 - - [02/May/2026 13:42:29] "POST /login HTTP/1.1" 400 -
+127.0.0.1 - - [02/May/2026 13:44:08] "GET /logout HTTP/1.1" 302 -
+127.0.0.1 - - [02/May/2026 13:44:12] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 13:44:18] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 13:44:29] "POST /login HTTP/1.1" 302 -
+127.0.0.1 - - [02/May/2026 13:44:29] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 13:44:39] "POST /login HTTP/1.1" 302 -
+127.0.0.1 - - [02/May/2026 13:44:39] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 13:44:48] "POST /login HTTP/1.1" 302 -
+127.0.0.1 - - [02/May/2026 13:44:48] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 13:44:57] "POST /login HTTP/1.1" 302 -
+127.0.0.1 - - [02/May/2026 13:44:57] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 13:45:05] "POST /login HTTP/1.1" 302 -
+127.0.0.1 - - [02/May/2026 13:45:05] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 13:45:13] "POST /login HTTP/1.1" 302 -
+127.0.0.1 - - [02/May/2026 13:45:13] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 13:45:20] "POST /login HTTP/1.1" 302 -
+127.0.0.1 - - [02/May/2026 13:45:20] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 13:45:26] "POST /login HTTP/1.1" 302 -
+127.0.0.1 - - [02/May/2026 13:45:26] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 14:00:24] "GET /register HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2026 14:00:59] "POST /register HTTP/1.1" 200 -
